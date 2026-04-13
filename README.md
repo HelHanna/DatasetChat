@@ -69,7 +69,10 @@ https://huggingface.co/spaces/HeHanna/DatasetChat
 
 ## System Architecture
 
-<img src="images/DatasetChat2.png" width="70%"/>
+
+<p align="center">
+  <img src="images/DatasetChat2.png" width="70%"/>
+</p>
 
 - Retrieval pipeline:
   - Query understanding
@@ -87,8 +90,9 @@ https://huggingface.co/spaces/HeHanna/DatasetChat
 ## 🤖 Agents
 
 ### 1. Query / Tool Selection Agent
-<img src="images/Tool_Selection_Agent.png" width="70%"/>
-
+<p align="center">
+    <img src="images/Tool_Selection_Agent.png" width="70%"/>
+</p>
 - Interprets user query
 - Selects MCP tools (e.g. `dataset_search`)
 - Minimizes unnecessary calls
@@ -105,17 +109,18 @@ https://huggingface.co/spaces/HeHanna/DatasetChat
 ---
 
 ### 3. Tag Selection Agent
-
-<img src="images/Tag_Selection_Agent.png" width="70%"/>
-
+<p align="center">
+    <img src="images/Tag_Selection_Agent.png" width="70%"/>
+</p>
 - Filters relevant tags
 - Improves semantic expansion
 
 ---
 
 ### 4. Semantic Paper Search Agent
-<img src="images/Semantic_paper_search_agent.png" width="70%"/>
-
+<p align="center">  
+    <img src="images/Semantic_paper_search_agent.png" width="70%"/>
+</p>
 
 - Used when no datasets found
 - Actions:
@@ -126,17 +131,18 @@ https://huggingface.co/spaces/HeHanna/DatasetChat
 ---
 
 ### 5. Tag Matching Agent
-
-<img src="images/Tag_Matching_Agent.png" width="70%"/>
-
+<p align="center">
+    <img src="images/Tag_Matching_Agent.png" width="70%"/>
+</p>
 - Final fallback
 - Matches query to predefined tag vocabulary
 
 ---
 
 ### 6. Judgment & Re-ranking Agents
-<img src="images/Judgement_and_Reranking_Agent.png" width="70%"/>
-
+<p align="center">
+  <img src="images/Judgement_and_Reranking_Agent.png" width="70%"/>
+</p>
 - Judgment Agent:
   - Filters irrelevant datasets
 - Re-ranking Agent:
@@ -169,9 +175,9 @@ https://huggingface.co/spaces/HeHanna/DatasetChat
 
 ## 📊 Benchmark
 
-![Benchmark](images/BenchmarkGithub.png)
-<img src="images/BenchmarkGithub.png" width="70%"/>
-
+<p align="center">
+    <img src="images/BenchmarkGithub.png" width="70%"/>
+</p>
 - Based on scientific papers
 - Pipeline:
   - Extract papers (HF, arXiv, PapersWithCode)
