@@ -71,7 +71,7 @@ https://huggingface.co/spaces/HeHanna/DatasetChat
 
 
 <p align="center">
-  <img src="images/DatasetChat2.png" width="70%"/>
+  <img src="images/DatasetChat.png" width="70%"/>
 </p>
 
 - Retrieval pipeline:
