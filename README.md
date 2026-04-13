@@ -69,7 +69,7 @@ https://huggingface.co/spaces/HeHanna/DatasetChat
 
 ## System Architecture
 
-![Pipeline](images/DatasetChat.png)
+<img src="images/DatasetChat2.png" width="70%"/>
 
 - Retrieval pipeline:
   - Query understanding
@@ -87,8 +87,7 @@ https://huggingface.co/spaces/HeHanna/DatasetChat
 ## 🤖 Agents
 
 ### 1. Query / Tool Selection Agent
-
-![Tool Selection](images/Tool_Selection_Agent.png)
+<img src="images/Tool_Selection_Agent.png" width="70%"/>
 
 - Interprets user query
 - Selects MCP tools (e.g. `dataset_search`)
@@ -107,7 +106,7 @@ https://huggingface.co/spaces/HeHanna/DatasetChat
 
 ### 3. Tag Selection Agent
 
-![Tag Selection](images/Tag_Selection_Agent.png)
+<img src="images/Tag_Selection_Agent.png" width="70%"/>
 
 - Filters relevant tags
 - Improves semantic expansion
@@ -115,8 +114,8 @@ https://huggingface.co/spaces/HeHanna/DatasetChat
 ---
 
 ### 4. Semantic Paper Search Agent
+<img src="images/Semantic_paper_search_agent.png" width="70%"/>
 
-![Paper Search](images/Semantic_paper_search_agent.png)
 
 - Used when no datasets found
 - Actions:
@@ -128,7 +127,7 @@ https://huggingface.co/spaces/HeHanna/DatasetChat
 
 ### 5. Tag Matching Agent
 
-![Tag Matching](images/Tag_Matching_Agent.png)
+<img src="images/Tag_Matching_Agent.png" width="70%"/>
 
 - Final fallback
 - Matches query to predefined tag vocabulary
@@ -136,8 +135,7 @@ https://huggingface.co/spaces/HeHanna/DatasetChat
 ---
 
 ### 6. Judgment & Re-ranking Agents
-
-![Reranking](images/Judgement_and_Reranking_Agent.png)
+<img src="images/Judgement_and_Reranking_Agent.png" width="70%"/>
 
 - Judgment Agent:
   - Filters irrelevant datasets
@@ -172,6 +170,7 @@ https://huggingface.co/spaces/HeHanna/DatasetChat
 ## 📊 Benchmark
 
 ![Benchmark](images/BenchmarkGithub.png)
+<img src="images/BenchmarkGithub.png" width="70%"/>
 
 - Based on scientific papers
 - Pipeline:
